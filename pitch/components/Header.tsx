@@ -7,12 +7,7 @@ const Header = () => {
       <div className="container flex h-16 items-center">
         <nav className="flex flex-1 items-center justify-between">
           <div className="flex items-center">
-            <Link
-              href="/"
-              className="text-xl font-bold text-blue-700 dark:text-blue-300"
-            >
-              CompanyName
-            </Link>
+            {/* The Link component formerly here has been removed */}
           </div>
           <div className="flex items-center space-x-3">
             <Link

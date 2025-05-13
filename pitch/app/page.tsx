@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col px-4 sm:px-6 lg:px-8">
       <Header />
       <Hero />
       <section id="canvas" className="py-16 bg-white dark:bg-gray-950">
